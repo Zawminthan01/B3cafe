@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>B3 cafe</title>
+	<style>
+		img{
+				width: 120px;
+				height: 100px;
+				position: absolute;
+			}
+			body{
+				padding: 0;
+				margin: 0;
+				background: url('img/3background.jpg');
+			}
+			*{
+			box-sizing: border-box;
+			}
+			header:after{
+			clear: both;
+			content: "";
+			display: table;
+			}
+			header{
+				background: black;
+			}
+			nav a{
+			font-size: 20px;
+			text-decoration: none;
+			background: black;
+			color: brown;
+			display: inline-block;
+			padding: 39px;
+			letter-spacing: 3px;
+			float: right;
+		}
+		.slide{
+			background: url('img/header-bg.jpg');
+			color: white;
+			background-size: cover;
+			min-height: 800px;
+			position: relative;
+		}
+		.slide span{
+			color: red;
+		}
+		.slide h3{
+			position: absolute;
+			color: white;
+			font-size: 40px;
+			top: 180px;
+			left: 5%;
+		}
+		.slide p{
+			position: absolute;
+			color: white;
+			font-size: 42px;
+			top: 250px;
+			left: 15%;
+			font-size: 20px;
+		}
+		header a:hover{
+			background: brown;
+			color: white;
+			padding: 25px;
+		}
+		header h5{
+			position: absolute;
+			color: white;
+			left: 15%;
+			top: 30px;
+		}
+		header h4{
+			position: absolute;
+			color: red;
+			left: 15%;
+			top: 10px;
+		}
+		.container{
+			width: 95%;
+			margin: auto;
+		}
+		.row:after{
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.col{
+			width: 23%;
+			margin: 10px;
+			float: left;
+			position:relative;
+
+		}
+		.col img{
+			width: 100%;
+			height: 300px;
+			position: relative;
+			
+
+		}
+		
+		.col p{
+			position: absolute;
+			top: -15px;
+			left: 0;
+			background: black;
+			color: white;
+			padding: 10px 20px;
+		}
+		.row h2{
+			color: brown;
+			text-align: center;
+		}
+		.col h2{
+			padding: 10px;
+			background: gray;
+			color: white;
+			margin: 5px;
+		}
+		.col p{
+				background: black;
+				color: chocolate;
+				margin-top: 14px;
+
+		}
+		
+		.col select{
+			width: 100%;
+			height: 30px;
+		}
+		.col button{
+			padding: 10px;
+			background: gray;
+			color: white;
+			margin: 5px;
+			border: none;
+			width: 100%;
+		}
+		.col button:hover{
+			background: black;
+			color: white;
+		}
+		.container h4{
+			position: absolute;
+			color: white;
+			margin-top: 5px;
+		}
+		.container h3{
+			position: absolute;
+			color: white;
+			margin-bottom: 15px;
+		}
+		.container span{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+			<!-- header -->
+			<header>
+			<img src="img/logo.jpg">
+				<h4>Book-Coffee-Music..☺</h4>
+				<h5>No need of life insurance...!!</h5>
+				<nav>
+					<a href="Contact us.html">Contact us</a>
+					<a href="Catering.html">Catering</a>
+					<a href="Group Dinning.html">Group Dining</a>
+					<a href="Menu.html">Menu</a>
+					<a href="index.html">Intro</a>
+				</nav>
+			</header>
+			<!-- header -->
+	<!-- Menu -->
+	<div class="container" id="container">
+		<h3><span>Work hard</span> in Silence</h3><br><br>
+		<h4>Lets your success be your noise</h4>
+		<div class="row">
+			<h2>Hot Coffee</h2>
+			<div class="col">
+				<img src="img/date.jpg">
+				<p>Date Cooffee</p>
+				<button>$15</button>
+				
+			</div>
+			<div class="col">
+				<img src="img/capuuchi.jpg">
+				<p>Cappuccino</p>
+				<button>$18</button>
+			</div>
+			<div class="col">
+				<img src="img/amerciano.jpg">
+				<p>Americano</p>
+				<button>$22</button>
+			</div>
+			<div class="col">
+				<img src="img/22.jpg">
+				<p>Affogato</p>
+				<button>$22</button>
+			</div>
+		</div>
+		<div class="row">
+			<h2>Milk Shake</h2>
+			<div class="col">
+				<img src="img/banana.jpg">
+				<p>Banana Milk Shape</p>
+				<button>$25</button>
+			</div>
+			<div class="col">
+				<img src="img/staw shape.jpg">
+				<p>Strawberry Milk Shape</p>
+				<button>$25</button>
+			</div>
+			<div class="col">
+				<img src="img/blue.jpg">
+				<p> Blueberry Milk Shape</p>
+				<button>$27</button>
+			</div>
+			<div class="col">
+				<img src="img/pine.jpg">
+				<p>Pineapple Milk Shape</p>
+				<button>$26</button>
+			</div>
+		</div>
+		<div class="row">
+			<h2>Appetizer</h2>
+			<div class="col">
+				<img src="img/SiChat.jpg">
+				<p>Si Chat Vermicelli </p>
+				<select>
+					<option>Chicken - $30</option>
+					<option>Pork - $35</option>
+					<option>Beef - $40</option>
+				</select>
+			</div>
+			<div class="col">
+				<img src="img/patato.jpg">
+				<p>French Fried</p>
+				<select>
+					<option class="ot">Data French Fried - $30</option>
+					<option class="ot">Mala French Fried- $35</option>
+				</select>
+			</div>
+			<div class="col">
+				<img src="img/M guo.jpg">
+				<p>Mala Xiang Guo</p>
+				<select>
+					<option class="ot">Sea Food - $44</option>
+					<option class="ot">Pork - $40</option>
+					<option class="ot">Beef - $40</option>
+				</select>
+			</div>
+			<div class="col">
+				<img src="img/M cai.jpg">
+				<p>Mao Chai</p>
+				<select>
+					<option class="ot">Chicken - $45</option>
+					<option class="ot">Pork - $40</option>
+					<option class="ot">Beef - $43</option>
+				</select>
+			</div>
+			<div class="row">
+				<h2>Fried Rice</h2>
+			<div class="col">
+				<img src="img/1.jpg">
+				<p>Burmese Fried Rice</p>
+				<button>$30</button>
+			</div>
+			<div class="col">
+				<img src="img/coconut.jpg">
+				<p>Coconuct Milk Fried Rice</p>
+				<button>$40</button>
+			</div>
+			<div class="col">
+				<img src="img/M america fried.jpg">
+				<p>American Fried Rice</p>
+				<button>$40</button>
+			</div>
+			<div class="col">
+				<img src="img/2.jpg">
+				<p>Tom Yan Fried Rice</p>
+				<button>$40</button>
+			</div>
+			<div class="row">
+				<h2>Salad</h2>
+			<div class="col">
+				<img src="img/bean.jpg">
+				<p>Bean Vernicelli Salad</p>
+				<button>$30</button>
+			</div>
+			<div class="col">
+				<img src="img/thai.jpg">
+				<p>Thai Papaya Salad</p>
+				<button>$35</button>
+			</div>
+			<div class="col">
+				<img src="img/mama.jpg">
+				<p>Pounded Mama Salad</p>
+				<button>$36</button>
+			</div>
+			<div class="col">
+				<img src="img/3.jpg">
+				<p>Pounded Chicken Feet Salad</p>
+				<button>$40</button>
+			</div>
+			
+	</div>
+	<!-- Menu -->
+</body>
+</html>

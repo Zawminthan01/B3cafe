@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>B3 cafe</title>
+	<style>
+		body{
+			background: sandybrown;
+			margin: 0px;
+			padding: 0px;
+		}
+		img{
+				width: 120px;
+				height: 100px;
+				position: absolute;
+			}
+			body{
+				padding: 0;
+				margin: 0;
+				background: url('img/2background.jpg');
+			}
+			*{
+			box-sizing: border-box;
+			}
+			header:after{
+			clear: both;
+			content: "";
+			display: table;
+			}
+			header{
+				background: black;
+			}
+			nav a{
+			font-size: 20px;
+			text-decoration: none;
+			background: black;
+			color: brown;
+			display: inline-block;
+			padding: 39px;
+			letter-spacing: 3px;
+			float: right;
+		}
+		header a:hover{
+			background: brown;
+			color: white;
+			padding: 25px;
+		}
+		header h5{
+			position: absolute;
+			color: white;
+			left: 15%;
+			top: 30px;
+		}
+		header h4{
+			position: absolute;
+			color: red;
+			left: 15%;
+			top: 10px;
+		}
+
+		fieldset{
+			padding: 30px;
+			border: 2px solid black;
+			background: url('img/fieldset.jpg');
+			width: 250px;
+			margin: 50px;
+
+		}
+		.btn{
+			background: gray;
+			color: white;
+			padding: 10px 20px;
+		}
+			input{
+			width: 350px;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid gray;
+		}
+		button{
+			background: gray;
+			color: white;
+		}
+		button:hover{
+			background: black;
+			color: white;
+		}
+		.container h2{
+			color: white;
+			font-size: 35px;
+			padding: 20px;
+			text-shadow: black;
+		}
+		.container span{
+			color: red;
+		}
+		.container p{
+			color: white;
+			font-size: 20px;
+			padding: 20px;
+		}
+		footer span{
+				color: red;
+		}
+		footer{
+			float: right;
+			padding: 20px;
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- header -->
+			<header>
+			<img src="img/logo.jpg">
+				<h4>Book-Coffee-Music..☺</h4>
+				<h5>No need of life insurance...!!</h5>
+				<nav>
+					<a href="Contact us.html">Contact us</a>
+					<a href="Catering.html">Catering</a>
+					<a href="Group Dinning.html">Group Dining</a>
+					<a href="Menu.html">Menu</a>
+					<a href="index.html">Intro</a>
+				</nav>
+			</header>
+			<!-- header -->
+	<!-- contact -->
+	<div class="container"id=contact>
+		<h2><span>B3</span>Cafe</h2>
+		<p>If you have any question about the cafe you can ask them there...!</p>
+		<fieldset>
+		<h3>Contact Us</h3>
+		<input type="text" name=""placeholder="Name"class="input"><br><br>
+		<input type="email" name=""placeholder="Email" class="input"><br><br>
+		<input type="text" name=""placeholder="Phone number" class="input"><br><br>
+		<input type="text" name=""placeholder="Comment" class="input"><br><br>
+		<button class="btn">Send Message</button>
+	</fieldset>
+	</div>
+	<footer>
+		<h2>A Place <span>Love Bron</span></h2>
+	</footer>
+</body>
+</html>
