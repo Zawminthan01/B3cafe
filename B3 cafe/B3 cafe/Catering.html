@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>B3 cafe</title>
+	<style>
+		fieldset{
+			background: url('img/header-bg.jpg');
+			font-size: 20px;
+			color: chocolate;
+		}
+		fieldset input{
+			background: brown;
+			color: white;
+			border: 3px solid black;
+		}
+		header img{
+				width: 120px;
+				height: 100px;
+				position: absolute;
+			}
+			body{
+				padding: 0;
+				margin: 0;
+				background:url('img/3background.jpg') ;
+			}
+			*{
+			box-sizing: border-box;
+			}
+			header:after{
+			clear: both;
+			content: "";
+			display: table;
+			}
+			header{
+				background: black;
+			}
+			nav a{
+			font-size: 20px;
+			text-decoration: none;
+			background: black;
+			color: brown;
+			display: inline-block;
+			padding: 39px;
+			letter-spacing: 3px;
+			float: right;
+		}
+		header a:hover{
+			background: brown;
+			color: white;
+			padding: 25px;
+		}
+		header h5{
+			position: absolute;
+			color: white;
+			left: 15%;
+			top: 30px;
+		}
+		header h4{
+			position: absolute;
+			color: red;
+			left: 15%;
+			top: 10px;
+		}
+		footer{
+			text-align: center;
+		}
+		.row:after{
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.col{
+			width: 25%;
+			margin:20px Px;
+			float: left;
+			position: relative;
+			padding: 20px;
+
+		}
+		.col p{
+			position: relative;
+			top: 0;
+			left: 0;
+			background: black;
+			color: white;
+			padding: 20px;
+		}
+		.col img{
+			width: 100%;
+			height: 250px;
+
+		} 
+		.input{
+			margin-bottom: 15px;
+			width: 100%;
+			padding: 15px;
+			border: 1px solid gray;
+		}
+		fieldset a{
+			width: 100%;
+			text-align: center;
+			padding: 10px;
+			text-decoration: none;
+			background: gray;
+			color: white;
+		}
+		fieldset a:hover{
+			background: black;
+			color: white;
+		}
+		.row a{
+			background: gray;
+			color: white;
+			width: 100%;
+			text-align: center;
+			padding: 10px;
+			text-decoration: none;
+			bottom: 10px;
+		}
+		.row a:hover{
+			background: black;
+			color: white;
+		}
+		h3{
+			background:black ;
+			color: white;
+			width: 100%;
+			text-align: center;
+			padding: 10px;
+			position: relative;
+			margin-top: -5px;
+		}
+		.container h1{
+			text-align: center;
+			color: white;
+			font-size: 25px;
+		}
+		.container h2{
+			text-align: center;
+			color: white;
+		}
+		.container span{
+			color: red;
+		}
+		footer {
+			background: black;
+			color: white;
+			padding: 10px;
+		}
+		footer span{
+			color: red;
+		}
+	</style>
+	<body>
+			<!-- header -->
+			<header>
+			<img src="img/logo.jpg">
+				<h4>Book-Coffee-Music..☺</h4>
+				<h5>No need of life insurance...!!</h5>
+				<nav>
+					<a href="Contact us.html">Contact us</a>
+					<a href="Catering.html">Catering</a>
+					<a href="Group Dinning.html">Group Dining</a>
+					<a href="Menu.html">Menu</a>
+					<a href="index.html">Intro</a>
+				</nav>
+			</header>
+			<!-- header -->
+			<div class="container">
+				<h1><span>Today </span>they called you <span>crazy</span></h1>
+				<h2><span>One day </span>they will ask you for a <span>selfie</span></h2>
+	<div class="row">
+			<div class="col">
+			<img src="img/c1.jpg">
+		   <h3> Party Catering</h3>
+			<a href="#Book Now">Book Now</a>
+			</div>
+
+			<div class="col">
+			<img src="img/c2.jpg">
+			<h3>Dinner Catering</h3>
+			<a href="#Book Now">Book Now</a>
+			</div>
+
+			<div class="col">
+			<img src="img/c3.jpg">
+			<h3> Birthday Catering</h3>
+			<a href="#Book Now">Book Now</a>
+			</div>
+
+			<div class="col">
+			<img src="img/c4.jpg">
+			<h3> Sweet Home Catering</h3>
+			<a href="#Book Now">Book Now</a>
+			</div>
+		</div>
+				<div class="row">
+			<div class="col">
+			<img src="img/c8.jpg">
+			<h3> Home Catering</h3>
+			<a href="#Book Now">Book Now</a>
+			</div>
+
+			<div class="col">
+			<img src="img/c5.jpg">
+			<h3> Weeding Catering</h3>
+			<a href="#Book Now">Book Now</a>
+			</div>
+
+			<div class="col">
+			<img src="img/c6.jpg">
+			<h3>wedding Catering</h3>
+			<a href="#Book Now">Book Now</a>
+			</div>
+
+			<div class="col">
+			<img src="img/c7.jpg">
+			<h3> Sweet Night Catering</h3>
+			<a href="#Book Now">Book Now</a>
+			</div>
+		</div>
+<div class="contaoner" id="Book Now">
+	<fieldset>
+	<h2>Order Now...!</h2>
+	<form>
+	    <input type="name" placeholder="Event name" class="input"><br>
+		<input type="number" placeholder="Member" class="input"><br>
+		 Drinks :<input type="checkbox" name="  Drink"><label>Iced Cappuccino</label>
+				:<input type="checkbox" name=" Drink"><label>Iced Cappuccino</label>		
+				:<input type="checkbox" name=" Drink"><label>Iced Tea</label>		
+		        :<input type="checkbox" name="  Drink"><label>Iced Chocolate</label>		
+				:<input type="checkbox" name=" Drink"><label>Hot Tea</label>		
+				:<input type="checkbox" name="Drink"><label>Iced Mocha</label><br><br>
+		meal :<input type="checkbox" name="  meal"><label>Chicken</label>
+				:<input type="checkbox" name=" meal"><label>Prawn</label>		
+				:<input type="checkbox" name=" meal"><label>Fish</label>		
+		        :<input type="checkbox" name="  meal"><label>Pork</label>		
+				:<input type="checkbox" name=" meal"><label>snacks</label>		
+				:<input type="checkbox" name="meal"><label>cakes</label><br><br>
+		<input type="text" placeholder="Phone number" class="input"><br><br>
+		<input type="Password" placeholder="Card Number" class="input"><br><br>
+		<input type="name" placeholder="comment" class="input"><br><br>
+		<a href="#">Order Now</a>
+</form>
+</div>
+   <footer>
+   			<h4>A Place <span>Love Born</span></h4>
+        </footer>
+</head>
+</fieldset>
+</body>
+</html>
